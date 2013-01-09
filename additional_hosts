@@ -1,0 +1,17 @@
+
+10.77.1.101 zenoss
+10.77.2.101 server2
+10.77.3.101 server3
+
+10.255.0.2  core1-eth1 core1
+10.255.0.10 core1-eth2
+10.255.0.18 core1-eth3
+
+10.255.0.3  dist1-eth1 dist1
+10.77.1.2   dist1-eth2
+
+10.255.0.11 dist2-eth1 dist2
+10.77.2.2   dist2-eth2
+
+10.255.0.19 dist3-eth1 dist3
+10.77.3.2   dist3-eth2
