@@ -40,8 +40,8 @@ Vagrant::Config.run do |config|
 
   # Zenoss Server
   config.vm.define :zenoss do |zenoss|
-    zenoss.vm.box = "centos-6.3-core"
-    zenoss.vm.box_url = "https://dl.dropbox.com/u/50577/vagrant/centos-6.3-core.box"
+    zenoss.vm.box = "centos-6.3-zenready"
+    zenoss.vm.box_url = "https://dl.dropbox.com/u/50577/vagrant/centos-6.3-zenready.box"
     zenoss.vm.customize ["modifyvm", "zenoss-#{:id}", "--memory", 2048]
     zenoss.vm.network :hostonly, "10.77.1.101"
     zenoss.vm.provision :shell, :path => "provision.sh", :args => "zenoss"
